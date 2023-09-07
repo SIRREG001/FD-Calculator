@@ -10,7 +10,7 @@ function calculateMaturityAmount() {
 
     const maturityAmount = principle + (principle * interestRate * tenure) / 100;
 
-    //display the result
+    //display the result;
 
     document.getElementById('result').innerText = `Maturity Amount: ${maturityAmount.toFixed(2)}`;
 }
